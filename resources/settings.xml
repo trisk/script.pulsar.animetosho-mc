@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="General">
-		<setting label="URL address (http://example.com):" type="text" id="url_address" default="http://www.nyaa.se"/>
+		<setting label="URL address (http://example.com):" type="text" id="url_address" default="http://animetosho.org"/>
 		<setting label="Category" type="lsep"/>
-		<setting label="Category:" type="labelenum" id="category" values="ALL|English translations|Non English translations|Raw" default="English translations"/>
+		<setting label="Category:" type="labelenum" id="category" values="ALL|Hide remakes|Trusted/A+ only|A+ only" default="ALL"/>
 		<setting label="Extra Keywords to send in the URL" type="lsep"/>
 		<setting label="Extra Keywords:" type="text" id="extra" default=""/>
 		<setting label="Notification Message" type="lsep"/>
